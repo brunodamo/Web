@@ -1,0 +1,130 @@
+
+ago 26, 2015 20:04:55.15 NEW SESSION
+ago 26, 2015 20:04:55.15 console.error: r2d2b2g: 
+ago 26, 2015 20:04:55.15   Message: TypeError: gcli.addCommand is not a function
+ago 26, 2015 20:04:55.15   Stack:
+ago 26, 2015 20:04:55.15     addCommand@resource://r2d2b2g-at-mozilla-dot-org/gcli/lib/gcli.js:19:3
+ago 26, 2015 20:04:55.15 @resource://r2d2b2g-at-mozilla-dot-org/r2d2b2g/lib/main.js:163:1
+ago 26, 2015 20:04:55.16 CuddlefishLoader/options<.load@resource://gre/modules/commonjs/sdk/loader/cuddlefish.js:129:18
+ago 26, 2015 20:04:55.16 run@resource://gre/modules/commonjs/sdk/addon/runner.js:145:19
+ago 26, 2015 20:04:55.17 startup/</<@resource://gre/modules/commonjs/sdk/addon/runner.js:86:7
+ago 26, 2015 20:04:55.17 Handler.prototype.process@resource://gre/modules/Promise-backend.js:865:23
+ago 26, 2015 20:04:55.17 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise-backend.js:744:7
+ago 26, 2015 20:04:55.18 
+ago 26, 2015 20:04:55.18 *************************
+ago 26, 2015 20:04:55.19 A coding exception was thrown in a Promise resolution callback.
+ago 26, 2015 20:04:55.22 See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+ago 26, 2015 20:04:55.22 
+ago 26, 2015 20:04:55.22 Full message: TypeError: gcli.addCommand is not a function
+ago 26, 2015 20:04:55.23 Full stack: addCommand@resource://r2d2b2g-at-mozilla-dot-org/gcli/lib/gcli.js:19:3
+ago 26, 2015 20:04:55.23 @resource://r2d2b2g-at-mozilla-dot-org/r2d2b2g/lib/main.js:163:1
+ago 26, 2015 20:04:55.23 CuddlefishLoader/options<.load@resource://gre/modules/commonjs/sdk/loader/cuddlefish.js:129:18
+ago 26, 2015 20:04:55.23 run@resource://gre/modules/commonjs/sdk/addon/runner.js:145:19
+ago 26, 2015 20:04:55.23 startup/</<@resource://gre/modules/commonjs/sdk/addon/runner.js:86:7
+ago 26, 2015 20:04:55.23 Handler.prototype.process@resource://gre/modules/Promise-backend.js:865:23
+ago 26, 2015 20:04:55.23 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise-backend.js:744:7
+ago 26, 2015 20:04:55.23 
+ago 26, 2015 20:04:55.23 *************************
+ago 26, 2015 20:04:55.24 console.error: r2d2b2g: 
+ago 26, 2015 20:04:55.24   Message: TypeError: gcli.addCommand is not a function
+ago 26, 2015 20:04:55.25   Stack:
+ago 26, 2015 20:04:55.25     addCommand@resource://r2d2b2g-at-mozilla-dot-org/gcli/lib/gcli.js:19:3
+ago 26, 2015 20:04:55.25 @resource://r2d2b2g-at-mozilla-dot-org/r2d2b2g/lib/main.js:163:1
+ago 26, 2015 20:04:55.28 CuddlefishLoader/options<.load@resource://gre/modules/commonjs/sdk/loader/cuddlefish.js:129:18
+ago 26, 2015 20:04:55.28 run@resource://gre/modules/commonjs/sdk/addon/runner.js:145:19
+ago 26, 2015 20:04:55.28 startup/</<@resource://gre/modules/commonjs/sdk/addon/runner.js:86:7
+ago 26, 2015 20:04:55.28 Handler.prototype.process@resource://gre/modules/Promise-backend.js:865:23
+ago 26, 2015 20:04:55.30 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise-backend.js:744:7
+ago 26, 2015 20:04:55.30 
+ago 26, 2015 20:05:31.61 console.error: r2d2b2g: 
+ago 26, 2015 20:05:31.61   Message: TypeError: gcli.addCommand is not a function
+ago 26, 2015 20:05:31.62   Stack:
+ago 26, 2015 20:05:31.65     addCommand@resource://r2d2b2g-at-mozilla-dot-org/gcli/lib/gcli.js:19:3
+ago 26, 2015 20:05:31.65 @resource://r2d2b2g-at-mozilla-dot-org/r2d2b2g/lib/main.js:163:1
+ago 26, 2015 20:05:31.65 CuddlefishLoader/options<.load@resource://gre/modules/commonjs/sdk/loader/cuddlefish.js:129:18
+ago 26, 2015 20:05:31.65 run@resource://gre/modules/commonjs/sdk/addon/runner.js:145:19
+ago 26, 2015 20:05:31.67 startup/</<@resource://gre/modules/commonjs/sdk/addon/runner.js:86:7
+ago 26, 2015 20:05:31.67 Handler.prototype.process@resource://gre/modules/Promise-backend.js:865:23
+ago 26, 2015 20:05:31.67 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise-backend.js:744:7
+ago 26, 2015 20:05:31.67 
+ago 26, 2015 20:05:31.67 *************************
+ago 26, 2015 20:05:31.67 A coding exception was thrown in a Promise resolution callback.
+ago 26, 2015 20:05:31.67 See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+ago 26, 2015 20:05:31.67 
+ago 26, 2015 20:05:31.71 Full message: TypeError: gcli.addCommand is not a function
+ago 26, 2015 20:05:31.71 Full stack: addCommand@resource://r2d2b2g-at-mozilla-dot-org/gcli/lib/gcli.js:19:3
+ago 26, 2015 20:05:31.71 @resource://r2d2b2g-at-mozilla-dot-org/r2d2b2g/lib/main.js:163:1
+ago 26, 2015 20:05:31.72 CuddlefishLoader/options<.load@resource://gre/modules/commonjs/sdk/loader/cuddlefish.js:129:18
+ago 26, 2015 20:05:31.72 run@resource://gre/modules/commonjs/sdk/addon/runner.js:145:19
+ago 26, 2015 20:05:31.72 startup/</<@resource://gre/modules/commonjs/sdk/addon/runner.js:86:7
+ago 26, 2015 20:05:31.72 Handler.prototype.process@resource://gre/modules/Promise-backend.js:865:23
+ago 26, 2015 20:05:31.72 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise-backend.js:744:7
+ago 26, 2015 20:05:31.72 
+ago 26, 2015 20:05:31.73 *************************
+ago 26, 2015 20:05:31.73 console.error: r2d2b2g: 
+ago 26, 2015 20:05:31.73   Message: TypeError: gcli.addCommand is not a function
+ago 26, 2015 20:05:31.74   Stack:
+ago 26, 2015 20:05:31.74     addCommand@resource://r2d2b2g-at-mozilla-dot-org/gcli/lib/gcli.js:19:3
+ago 26, 2015 20:05:31.75 @resource://r2d2b2g-at-mozilla-dot-org/r2d2b2g/lib/main.js:163:1
+ago 26, 2015 20:05:31.78 CuddlefishLoader/options<.load@resource://gre/modules/commonjs/sdk/loader/cuddlefish.js:129:18
+ago 26, 2015 20:05:31.78 run@resource://gre/modules/commonjs/sdk/addon/runner.js:145:19
+ago 26, 2015 20:05:31.78 startup/</<@resource://gre/modules/commonjs/sdk/addon/runner.js:86:7
+ago 26, 2015 20:05:31.78 Handler.prototype.process@resource://gre/modules/Promise-backend.js:865:23
+ago 26, 2015 20:05:31.80 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise-backend.js:744:7
+ago 26, 2015 20:05:31.80 
+ago 26, 2015 20:15:31.06 1440630931050	addons.repository	WARN	Search failed when repopulating cache
+ago 26, 2015 20:15:31.76 1440630931744	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+ago 26, 2015 20:15:32.13 1440630932120	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+ago 26, 2015 20:15:32.14 1440630932129	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+ago 26, 2015 20:15:32.16 1440630932144	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+ago 26, 2015 20:15:32.16 1440630932146	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+ago 26, 2015 20:15:32.86 1440630932846	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+ago 26, 2015 20:15:33.24 1440630933228	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+ago 26, 2015 20:43:25.69 
+ago 26, 2015 20:43:25.69 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+ago 26, 2015 20:43:25.69 
+ago 26, 2015 20:43:25.71 
+ago 26, 2015 20:43:25.71 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+ago 26, 2015 20:43:25.71 
+ago 26, 2015 20:52:56.35 console.error: r2d2b2g: 
+ago 26, 2015 20:52:56.35   Message: TypeError: gcli.addCommand is not a function
+ago 26, 2015 20:52:56.35   Stack:
+ago 26, 2015 20:52:56.35     addCommand@resource://r2d2b2g-at-mozilla-dot-org/gcli/lib/gcli.js:19:3
+ago 26, 2015 20:52:56.37 @resource://r2d2b2g-at-mozilla-dot-org/r2d2b2g/lib/main.js:163:1
+ago 26, 2015 20:52:56.37 CuddlefishLoader/options<.load@resource://gre/modules/commonjs/sdk/loader/cuddlefish.js:129:18
+ago 26, 2015 20:52:56.37 run@resource://gre/modules/commonjs/sdk/addon/runner.js:145:19
+ago 26, 2015 20:52:56.37 startup/</<@resource://gre/modules/commonjs/sdk/addon/runner.js:86:7
+ago 26, 2015 20:52:56.37 Handler.prototype.process@resource://gre/modules/Promise-backend.js:865:23
+ago 26, 2015 20:52:56.39 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise-backend.js:744:7
+ago 26, 2015 20:52:56.39 
+ago 26, 2015 20:52:56.39 *************************
+ago 26, 2015 20:52:56.39 A coding exception was thrown in a Promise resolution callback.
+ago 26, 2015 20:52:56.40 See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+ago 26, 2015 20:52:56.40 
+ago 26, 2015 20:52:56.40 Full message: TypeError: gcli.addCommand is not a function
+ago 26, 2015 20:52:56.40 Full stack: addCommand@resource://r2d2b2g-at-mozilla-dot-org/gcli/lib/gcli.js:19:3
+ago 26, 2015 20:52:56.42 @resource://r2d2b2g-at-mozilla-dot-org/r2d2b2g/lib/main.js:163:1
+ago 26, 2015 20:52:56.42 CuddlefishLoader/options<.load@resource://gre/modules/commonjs/sdk/loader/cuddlefish.js:129:18
+ago 26, 2015 20:52:56.42 run@resource://gre/modules/commonjs/sdk/addon/runner.js:145:19
+ago 26, 2015 20:52:56.42 startup/</<@resource://gre/modules/commonjs/sdk/addon/runner.js:86:7
+ago 26, 2015 20:52:56.42 Handler.prototype.process@resource://gre/modules/Promise-backend.js:865:23
+ago 26, 2015 20:52:56.43 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise-backend.js:744:7
+ago 26, 2015 20:52:56.43 
+ago 26, 2015 20:52:56.43 *************************
+ago 26, 2015 20:52:56.46 console.error: r2d2b2g: 
+ago 26, 2015 20:52:56.49   Message: TypeError: gcli.addCommand is not a function
+ago 26, 2015 20:52:56.53   Stack:
+ago 26, 2015 20:52:56.56     addCommand@resource://r2d2b2g-at-mozilla-dot-org/gcli/lib/gcli.js:19:3
+ago 26, 2015 20:52:56.57 @resource://r2d2b2g-at-mozilla-dot-org/r2d2b2g/lib/main.js:163:1
+ago 26, 2015 20:52:56.57 CuddlefishLoader/options<.load@resource://gre/modules/commonjs/sdk/loader/cuddlefish.js:129:18
+ago 26, 2015 20:52:56.59 run@resource://gre/modules/commonjs/sdk/addon/runner.js:145:19
+ago 26, 2015 20:52:56.59 startup/</<@resource://gre/modules/commonjs/sdk/addon/runner.js:86:7
+ago 26, 2015 20:52:56.59 Handler.prototype.process@resource://gre/modules/Promise-backend.js:865:23
+ago 26, 2015 20:52:56.61 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise-backend.js:744:7
+ago 26, 2015 20:52:56.61 
+ago 26, 2015 22:43:21.22 
+ago 26, 2015 22:43:21.24 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+ago 26, 2015 22:43:21.24 
+ago 26, 2015 22:43:21.24 
+ago 26, 2015 22:43:21.24 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+ago 26, 2015 22:43:21.24 

@@ -1,0 +1,34 @@
+package br.com.fiap.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import br.com.fiap.bean.PessoaBean;
+
+public class PessoaDAO {
+
+	public static List<PessoaBean> lista;
+	
+	public PessoaDAO(){
+		
+		if(lista == null){
+			
+			lista = new ArrayList<PessoaBean>();
+			
+		}
+		
+	}
+	
+	public boolean insert(PessoaBean pb){
+		
+		lista.add(pb);
+		
+		return true;
+	}
+	
+	public List<PessoaBean> select(){
+		
+		return lista;
+		
+	}
+}
