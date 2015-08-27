@@ -1,0 +1,15 @@
+package br.com.fiap.bo;
+
+import br.com.fiap.bean.PessoaBean;
+import br.com.fiap.dao.PessoaDAO;
+
+public class PessoaBO {
+	
+	public boolean insertPessoa(String nome, int idade, char sexo){
+		
+		PessoaBean pb = new PessoaBean();
+		PessoaDAO pd = new PessoaDAO();
+				
+	}
+	
+}

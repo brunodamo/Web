@@ -1,0 +1,11 @@
+package br.com.fiap.bo;
+
+public class PessoaBO {
+	
+	public boolean insertPessoa(String nome, int idade, char sexo){
+		
+		return 0;
+				
+	}
+	
+}

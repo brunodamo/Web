@@ -1,0 +1,13 @@
+package br.com.fiap.bean;
+
+public class PessoaBean {
+
+	private String nome;
+	private int idade;
+	private char sexo; 
+	
+	public PessoaBean() {
+			
+	}
+
+}

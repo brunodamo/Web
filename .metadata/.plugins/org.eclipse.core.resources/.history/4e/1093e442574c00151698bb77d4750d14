@@ -1,0 +1,16 @@
+package br.com.fiap.dao;
+
+import java.util.List;
+
+import br.com.fiap.bean.PessoaBean;
+
+public class PessoaDAO {
+
+	public static List<PessoaBean> lista;
+	
+	
+	public boolean insert(PessoaBean pb){
+		
+		return true;
+	}
+}

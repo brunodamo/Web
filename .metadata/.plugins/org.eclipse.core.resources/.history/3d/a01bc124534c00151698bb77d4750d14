@@ -1,0 +1,71 @@
+package br.com.fiap.controller;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import br.com.fiap.bean.PessoaBean;
+
+/**
+ * Servlet implementation class ServletJSTL
+ */
+
+public class ServletJSTL extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public ServletJSTL() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		
+		//Instanciando objeto
+		PessoaBean pb = new PessoaBean();
+		
+		//Populando o objeto com os parâmetros do request
+		pb.setNome(request.getParameter("nome"));
+		pb.setIdade(Integer.parseInt(request.getParameter("idade")));
+		pb.setSexo(request.getParameter("sexo").charAt(0));
+		
+		//Criando atributo no request
+		request.setAttribute("pessoa", pb);
+		
+		
+		request.getRequestDispatcher("saida.jsp").forward(request, response);
+		
+//		//Pegando os parametros pelo index.jsp
+//		//via get 
+//		
+//		String url = request.getParameter("url");
+//		String title= request.getParameter("title");
+//		
+//		//Criando um vetor de Strings
+//		String[] dados = {url, title};
+//
+//		///Criando o atributo no request que será enviado para o alvo!
+//		request.setAttribute("informacoes", dados);
+//		
+//		//Criando o dispatcher e encaminhando o request e o response
+//		request.getRequestDispatcher("saida.jsp").forward(request, response);
+		
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+	}
+
+}
